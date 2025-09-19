@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<html lang="en"> <!--METADATOS, INFO EXTRA, Que tipo de archivos CSS vamos a usar-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Esto hace que se adapte a la pantalla del dispositivo (para celulares por ejemplo)-->
+        <title>Portfolio Marcos Mazzitelli</title>
+        <meta name="description" content="Portfolio de Marcos, estudiante de Tecnicatura Universitaria en Programación en la Universidad Tecnológica Nacional">
+        <link rel="stylesheet" href="Estilos.css">
+    </head>
+
+    <body>
+    <header id="top"> <!---HEADER: esto debe ir arriba del todo ----> 
+        <nav class="nav">
+            <li class="nav_item">
+                <a href="#SobreMi"class="nav_link">Sobre Mí</a>
+            </li>
+            <li class="nav_item">
+                <a href="#Proyectos"class="nav_link">Proyectos</a>
+            </li>
+            <li class="nav_item">
+                <a href="#Contacto"class="nav_link">Contacto</a>
+            </li>          
+            
+        </nav>
+        <h1>Marcos Mazzitelli</h1>
+        <img class="card_img"
+            title="Foto de Marcos"
+            src="IMG_0986 (1).JPG" alt="Foto perfíl"> <!--- el edit de la foto puede ir en css-->
+    </header>
+
+    <main>
+
+        <h2 id="SobreMiTitle"> Sobre Mí</h2>
+        <p id="SobreMiText">¡Hola! Mi nombre es Marcos, soy estudiante en la Tecnicatura Universitaria en Programación
+            en la Universidad Tecnológica Nacional (UTN). Mi curiosidad me impulsa a buscar soluciones
+            innovadoras y eficientes buscando la optimización de los procesos. Mi enfoque principal es
+            el <strong>Desarrollo Backend</strong>, con un interés particular en C++, C# y el ecosistema .NET.
+        </p>
+
+        <section>
+            <h2> Tecnologías</h2>
+            <ol>
+                <li>.NET Framework</li>
+                <li>C#</li>
+                <li>SQL</li>
+                <li>C++</li>
+
+            </ol>
+        </section>
+        <section>
+            <h2 id="Proyectos">Proyectos realizados</h2>
+             <article class="card_proyecto">  
+                 <header>
+                     <h4>Sistema de gestión de artículos (WinForms)</h4>
+                 </header>
+                 <p>info</p>
+               </article>
+             <article class="card_proyecto">  
+                 <header>
+                     <h4>Sistema de gestión de panchería (C++)</h4>
+                 </header>
+                 <p>info</p>
+             </article>
+             <article class="card_proyecto">  
+                 <header>
+                     <h4>¡Bonzo ve a dormir! (C++)</h4> 
+                 </header>
+                 <p>info</p>
+             </article>
+
+        </section>
+        
+        <section>
+            <h2 id="Contacto">Contacto</h2>
+            <form method="post" action="/">
+                <fieldset>
+                    <legend>Informacion personal</legend>
+                    <div>
+                        <label>Nombre:
+                        <input 
+                            type="text" 
+                            name="name"
+                            placeholder="Nombre y Apellido"
+                        >
+                        </label>
+                    </div>
+
+                    <div>
+                        <label>Email:
+                        <input 
+                            type="email" 
+                            name="email"
+                            placeholder="Email@dominio"
+                        >
+                        </label>
+                    </div>
+                </fieldset>
+                <button>Enviar mensaje</button>
+            </form>
+
+
+        </section>
+
+    </main>
+
+    
+    <footer>
+        
+        <a href="https://www.linkedin.com/in/marcos-mazzitelli-41168136b/">Mi Linkedin</a>
+        
+    </footer>
+</body>
+</html> 
+
+        <!--- 
