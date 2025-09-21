@@ -13,8 +13,12 @@
     <header id="top"> <!---HEADER: esto debe ir arriba del todo ----> 
         <nav class="nav">
             <li class="nav_item">
-                <a href="#SobreMi"class="nav_link">Sobre Mí</a>
+                <a href="#SobreMiTitle"class="nav_link">Sobre Mí</a>
             </li>
+             <li class="nav_item">
+                <a href="#Experiencia"class="nav_link">Experiencia</a>
+            </li>
+
             <li class="nav_item">
                 <a href="#Proyectos"class="nav_link">Proyectos</a>
             </li>
@@ -24,9 +28,9 @@
             
         </nav>
         <h1>Marcos Mazzitelli</h1>
-        <img class="card_img"
+        <img class="img_presentacion"
             title="Foto de Marcos"
-            src="IMG_0986 (1).JPG" alt="Foto perfíl"> <!--- el edit de la foto puede ir en css-->
+            src="/Imgs/IMG_0986.JPG" alt="Foto perfíl"> <!--- el edit de la foto puede ir en css-->
     </header>
 
     <main>
@@ -40,33 +44,74 @@
 
         <section>
             <h2> Tecnologías</h2>
-            <ol>
-                <li>.NET Framework</li>
-                <li>C#</li>
-                <li>SQL</li>
-                <li>C++</li>
-
-            </ol>
+                <img class="iconos_tecnologias" src="Imgs/Icons/Net.png" alt="Icono .NET" >
+                <img class="iconos_tecnologias" src="Imgs/Icons/Sql.png" alt="Icono SQL" >
+                <img class="iconos_tecnologias" src="Imgs/Icons/Csharp.png" alt="Icono C#" >
+                <img class="iconos_tecnologias" src="Imgs/Icons/C++.png" alt="Icono C++" >
         </section>
+
+        <section>
+            <h2 id="Experiencia"> Experiencia</h2>
+             <article class="card_Experiencia">  
+                 <header>
+                    <h3> Universidad Tecnológica Nacional FRGP</h3>
+                    <img class="img_exp" src="/Imgs/logo-utn-horizontal.png" alt ="Icono UTN" >
+                    <h5>Ayudante de cátedra Programación I</h5>
+                 </header>
+                 <p>
+                    Ayudante de cátedra en la materia Programación I en la Universidad Tecnológica Nacional - Regional Pacheco.
+                </p>
+                <p> 
+                    <strong>Tareas:</strong> Asistencia a alumnos en campus virtual, resolución de dudas tanto de ejercicios como de las herramientas utilizadas. Contenidos de Programación estructurada en C++ y diagramas de flujo en PseInt. 
+                </p>
+               </article>
+
+             <article class="card_Experiencia">  
+                 <header>
+                     <h3>Cervecería y Malteria Quilmes</h3>
+                     <img class="img_exp" src="/Imgs/CMQ_Imagen.png" alt ="Foto CMQ" >
+
+                     <h5> Administrativo AgroComercial - Malteria Tres Arroyos</h5>
+                 </header>
+
+                 <p>
+                    Administrativo AgroComercial en Malteria Quilmes ubicada en Tres Arroyos, donde desarrollo tareas administrativas, principalmente utilizando SAP como sistema de gestión para registrar ingresos y egresos de granos, compras, gestión de stocks, elaboración de reportes tanto para proveedores como para distintas áreas de la compañía.
+                 </p>
+             </article>
+        </section>
+
         <section>
             <h2 id="Proyectos">Proyectos realizados</h2>
              <article class="card_proyecto">  
                  <header>
                      <h4>Sistema de gestión de artículos (C# .Net Framework - WinForms)</h4>
-                 </header>
-                 <p>info</p>
+                     <img class="img_proyecto" src="Imgs/Img_CatalogoArticulos.png" alt ="Foto Catalogo Articulos" >
+                    </header>
+                 <p>
+                    Aplicación de escritorio (Winforms) en C# .NET Framework para gestión de artículos con su lista de imágenes vinculada, categorías y marcas con ABM completo. Implementa conexión a SQL Server mediante ADO.NET, interfaz gráfica, validaciones y manejo de excepciones.
+
+                 </p>
                </article>
+
              <article class="card_proyecto">  
                  <header>
                      <h4>Sistema de gestión de panchería (C++)</h4>
+                     <img class="img_proyecto" src="Imgs/Img_LaPancheria.png" alt ="Foto Pancheria" >
                  </header>
-                 <p>info</p>
+                 <p>
+                    Sistema de gestión gastronómica desarrollado en C++ con programación orientada a objetos y persistencia en archivos binarios. Incluye la gestión completa de productos, ingredientes y recetas, sistema de ventas, control de stock automático y manual, manejo de usuarios, roles y un menú de reportes para la toma de decisiones.
+                 </p>
              </article>
+
              <article class="card_proyecto">  
                  <header>
-                     <h4>¡Bonzo ve a dormir! (C++)</h4> 
-                 </header>
-                 <p>info</p>
+                     <h4>¡Bonzo ve a dormir! - Juego de dados (C++)</h4>
+                     <img class="img_proyecto" src="Imgs/Img_Bonzo.png" alt ="Foto Catalogo Articulos" >
+                </header>
+                 <p>
+                    Bonzo es un juego de de dados para dos jugadores. El objetivo es  Sumar la mayor cantidad de puntos posible a lo largo de las 6 rondas. Cada ronda tiene un "número prohibido" correspondiente al número de la ronda, y los jugadores deben evitar obtenerlo en los dados.
+                 </p>
+                 <p> Trabajo práctico integrador de la materia Programación I. Desarrollado en C++ con programación estructurada y modular, contiene una interfaz de consola interactiva con el usuario.</p>
              </article>
 
         </section>

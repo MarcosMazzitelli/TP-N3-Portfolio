@@ -1,74 +1,16 @@
-#top{
-    background-color: rgb(131, 214, 250);
-    width: 100%;
-    padding: 10px 0;
-}
-
-
-
+/* ESTILOS GENERALES */
 body {
-    background-color: rgb(162, 222, 254);
+    background-color: rgb(241, 251, 242);
     text-align: center;
     margin: 0;
     font-family: Arial, sans-serif;
 }
 
 
-
-.nav{
-    background-color:rgb(208, 236, 243);
-    text-align: right;
-}
-.nav_list{
-    margin: 0;
-}
-
-.nav_item{
-    display: inline-block;
-    padding: 10px;
-    background-color: rgb(208, 236, 243);
-}
-
-.nav_item:hover{
-    background-color: rgb(189, 218, 240);
-}
-
-.nav_link {
-    color: black;
-    text-decoration: none;
-}
-
-.card_img{
-    border-radius: 50%;
-    width: 200px;
-}
-
-#SobreMiText {
-    text-align: left;
-    max-width: 600px;
-    margin: auto;
-}
-
-li{
-    text-align: center;
-}
-
-form {
-    max-width: 500px;
-    margin: auto;
-    background: rgb(208, 236, 243);
-    padding: 15px;
-    border-radius: 10px;
-}
-
-.card_proyecto{
-    background-color: rgb(208, 236, 243);
-    text-align: center;
-    width: 500px;
-    margin: auto;
-    box-shadow: 0px 0px 25px #0007;
-    border-radius:
-     10px
+#top {
+    background-color: rgb(176, 217, 235);
+    width: 100%;
+    padding: 10px 0;
 }
 
 footer {
@@ -77,4 +19,82 @@ footer {
     padding: 10px;
 }
 
+/*  NAVEGACIÓN  */                       
+.nav {
+    background-color: rgb(208, 236, 243);
+    text-align: right;
+}
 
+.nav_list {
+    margin: 0;
+}
+
+.nav_item {
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(208, 236, 243);
+}
+
+.nav_item:hover {
+    background-color: rgb(189, 218, 240);
+}
+
+.nav_link {
+    color: black;
+    text-decoration: none;
+}
+
+/*  TARJETAS  */             
+.card_proyecto {
+    background-color: rgb(208, 236, 243);
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    box-shadow: 0px 0px 25px #0007;
+    border-radius: 10px;
+}
+
+.card_Experiencia {
+    background-color: rgb(208, 236, 243);
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    box-shadow: 0px 0px 25px #0007;
+    border-radius: 10px;
+}
+
+/*  IMÁGENES  */
+.img_presentacion {              
+    border-radius: 50%;
+    width: 200px;
+}
+
+.img_proyecto {
+    width: 400px;
+}
+
+.img_exp {
+    width: 200px;
+    mix-blend-mode: multiply; /* Elimina el fondo blanco de la foto */
+}
+
+.iconos_tecnologias {          
+    width: 90px;
+    margin: 20px;
+}
+
+/*  SECCIONES ESPECÍFICAS  */ 
+#SobreMiText {               
+    text-align: left;
+    max-width: 600px;
+    margin: auto;
+}
+
+/*  FORMULARIOS  */
+form {             
+    max-width: 500px; 
+    margin: auto;
+    background: rgb(208, 236, 243);
+    padding: 15px;
+    border-radius: 10px;
+}
