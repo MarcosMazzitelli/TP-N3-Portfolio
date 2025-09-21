@@ -30,7 +30,7 @@
         <h1>Marcos Mazzitelli</h1>
         <img class="img_presentacion"
             title="Foto de Marcos"
-            src="Imgs/IMG_0986.JPG" alt="Foto perfíl"> <!--- el edit de la foto puede ir en css-->
+            src="Imgs/IMG_0986.JPG" alt="Foto perfíl">
     </header>
 
     <main>
@@ -39,112 +39,109 @@
             <p id="SobreMiText">¡Hola! Mi nombre es Marcos, soy estudiante en la Tecnicatura Universitaria en Programación
                 en la Universidad Tecnológica Nacional (UTN). Mi curiosidad me impulsa a buscar soluciones
                 innovadoras y eficientes buscando la optimización de los procesos. Mi enfoque principal es
-                el <strong>Desarrollo Backend</strong>, con un interés particular en C++, C# y el ecosistema .NET.
+                el <strong>Desarrollo Backend</strong>, con un interés particular C# y el ecosistema .NET.
             </p>
         </section>
 
-        <section>
-            <h2> Tecnologías</h2>
-                <img class="iconos_tecnologias" src="Imgs/Icons/Net.png" alt="Icono .NET" >
-                <img class="iconos_tecnologias" src="Imgs/Icons/Sql.png" alt="Icono SQL" >
-                <img class="iconos_tecnologias" src="Imgs/Icons/Csharp.png" alt="Icono C#" >
-                <img class="iconos_tecnologias" src="Imgs/Icons/C++.png" alt="Icono C++" >
+        <h2> Tecnologías</h2>
+        <section class="tecnologias">
+                <img class="iconos_tecnologias" title=".Net" src="Imgs/Icons/Net.png" alt="Icono .NET" >
+                <img class="iconos_tecnologias" title="SQL" src="Imgs/Icons/Sql.png" alt="Icono SQL" >
+                <img class="iconos_tecnologias" title="C#" src="Imgs/Icons/Csharp.png" alt="Icono C#" >
+                <img class="iconos_tecnologias" title="C++" src="Imgs/Icons/C++.png" alt="Icono C++" >
         </section>
 
-        <section>
-            <h2 id="Experiencia"> Experiencia</h2>
-             <article class="card_Experiencia">  
-                 <header>
-                    <h3> Universidad Tecnológica Nacional FRGP</h3>
-                    <img class="img_exp" src="Imgs/logo-utn-horizontal.png" alt ="Icono UTN" >
-                    <h5>Ayudante de cátedra Programación I</h5>
-                 </header>
-                 <p>
-                    Ayudante de cátedra en la materia Programación I en la Universidad Tecnológica Nacional - Regional Pacheco.
-                </p>
-                <p> 
-                    <strong>Tareas:</strong> Asistencia a alumnos en campus virtual, resolución de dudas tanto de ejercicios como de las herramientas utilizadas. Contenidos de Programación estructurada en C++ y diagramas de flujo en PseInt. 
-                </p>
-               </article>
-
-             <article class="card_Experiencia">  
-                 <header>
-                     <h3>Cervecería y Malteria Quilmes</h3>
-                     <img class="img_exp" src="Imgs/CMQ_Imagen.png" alt ="Foto CMQ" >
-
-                     <h5> Administrativo AgroComercial - Malteria Tres Arroyos</h5>
-                 </header>
-
-                 <p>
-                    Administrativo AgroComercial en Malteria Quilmes ubicada en Tres Arroyos, donde desarrollo tareas administrativas, principalmente utilizando SAP como sistema de gestión para registrar ingresos y egresos de granos, compras, gestión de stocks, elaboración de reportes tanto para proveedores como para distintas áreas de la compañía.
-                 </p>
-             </article>
-        </section>
-
-        <section>
-            <h2 id="Proyectos">Proyectos realizados</h2>
-             <article class="card_proyecto">  
-                 <header>
-                     <h4>Sistema de gestión de artículos (C# .Net Framework - WinForms)</h4>
-                     <img class="img_proyecto" src="Imgs/Img_CatalogoArticulos.png" alt ="Foto Catalogo Articulos" >
+        <h2 id="Experiencia"> Experiencia</h2>
+        <section class = "card_expContainer">
+                <article class="card_Experiencia">  
+                    <header>
+                        <h3> Universidad Tecnológica Nacional FRGP</h3>
+                        <h5>Ayudante de cátedra Programación I</h5>
+                        <img class="img_exp" src="Imgs/logo-utn-horizontal.png" alt ="Icono UTN" >
                     </header>
-                 <p>
-                    Aplicación de escritorio (Winforms) en C# .NET Framework para gestión de artículos con su lista de imágenes vinculada, categorías y marcas con ABM completo. Implementa conexión a SQL Server mediante ADO.NET, interfaz gráfica, validaciones y manejo de excepciones.
+                    <p>
+                        Ayudante de cátedra en la materia Programación I en la Universidad Tecnológica Nacional - Regional Pacheco.
+                    </p>
+                    <p> 
+                        <strong>Tareas:</strong> Asistencia a alumnos en campus virtual, resolución de dudas tanto de ejercicios como de las herramientas utilizadas. Contenidos de Programación estructurada en C++ y diagramas de flujo en PseInt. 
+                    </p>
+                </article>
 
-                 </p>
-               </article>
+                <article class="card_Experiencia">  
+                    <header>
+                        <h3>Cervecería y Malteria Quilmes</h3>
+                        <h5> Administrativo AgroComercial - Malteria Tres Arroyos</h5>
+                        <img class="img_exp" src="Imgs/CMQ_Imagen.png" alt ="Foto CMQ" >
 
-             <article class="card_proyecto">  
-                 <header>
-                     <h4>Sistema de gestión de panchería (C++)</h4>
-                     <img class="img_proyecto" src="Imgs/Img_LaPancheria.png" alt ="Foto Pancheria" >
-                 </header>
-                 <p>
-                    Sistema de gestión gastronómica desarrollado en C++ con programación orientada a objetos y persistencia en archivos binarios. Incluye la gestión completa de productos, ingredientes y recetas, sistema de ventas, control de stock automático y manual, manejo de usuarios, roles y un menú de reportes para la toma de decisiones.
-                 </p>
-             </article>
+                    </header>
 
-             <article class="card_proyecto">  
-                 <header>
-                     <h4>¡Bonzo ve a dormir! - Juego de dados (C++)</h4>
-                     <img class="img_proyecto" src="Imgs/Img_Bonzo.png" alt ="Foto Catalogo Articulos" >
-                </header>
-                 <p>
-                    Bonzo es un juego de de dados para dos jugadores. El objetivo es  Sumar la mayor cantidad de puntos posible a lo largo de las 6 rondas. Cada ronda tiene un "número prohibido" correspondiente al número de la ronda, y los jugadores deben evitar obtenerlo en los dados.
-                 </p>
-                 <p> Trabajo práctico integrador de la materia Programación I. Desarrollado en C++ con programación estructurada y modular, contiene una interfaz de consola interactiva con el usuario.</p>
-             </article>
+                    <p>
+                        Administrativo AgroComercial en Malteria Quilmes ubicada en Tres Arroyos, donde desarrollo tareas administrativas, principalmente utilizando SAP como sistema de gestión para registrar ingresos y egresos de granos, compras, gestión de stocks, elaboración de reportes tanto para proveedores como para distintas áreas de la compañía.
+                    </p>
+                </article>
+        </section>
 
+        <h2 id="Proyectos">Proyectos realizados</h2>
+        <section class = "card_proyectosContainer">
+                <article class="card_proyecto">  
+                    <header>
+                        <h4>Catálogo de artículos</h4>
+                        <img class="img_proyecto" src="Imgs/Img_CatalogoArticulos.png" alt ="Foto Catalogo Articulos" >
+                        </header>
+                    <p>
+                        Aplicación de escritorio (Winforms) en C# .NET Framework para gestión de artículos con su lista de imágenes vinculada, categorías y marcas con ABM completo. Implementa conexión a SQL Server mediante ADO.NET, interfaz gráfica, validaciones y manejo de excepciones.
+                    </p>
+                    <p>
+                        <strong>Tecnologías:</strong> C# .NET Framework - WinForms - SQL Server - ADO.NET
+                    </p>
+                     <button class="buttonGitHub"> <a href="https://github.com/MarcosMazzitelli/TP-WinForms-Equipo-5A" class="buttonGitHubLink">Ver en github</a></button>
+
+                </article>
+
+                <article class="card_proyecto">  
+                    <header>
+                        <h4>Sistema de gestión de panchería</h4>
+                        <img class="img_proyecto" src="Imgs/Img_LaPancheria.png" alt ="Foto Pancheria" >
+                    </header>
+                    <p>
+                        Sistema de gestión gastronómica desarrollado en C++ con programación orientada a objetos y persistencia en archivos binarios. Incluye la gestión completa de productos, ingredientes y recetas, sistema de ventas, control de stock automático y manual, manejo de usuarios, roles y un menú de reportes para la toma de decisiones.
+                    </p>
+                    <p>
+                        <strong>Tecnologías:</strong> C++ - Persistencia en archivos binarios
+                    </p>
+                     <button class="buttonGitHub"> <a href="https://github.com/MarcosMazzitelli/LaPancheriaApp" class="buttonGitHubLink">Ver en github</a></button>
+                </article>
+
+                <article class="card_proyecto">  
+                    <header>
+                        <h4>¡Bonzo ve a dormir!</h4>
+                        <img class="img_proyecto" src="Imgs/Img_Bonzo.png" alt ="Foto Catalogo Articulos" >
+                    </header>
+                    <p>
+                        Juego de de dados para dos jugadores. El objetivo es  Sumar la mayor cantidad de puntos posible a lo largo de las 6 rondas.
+                    </p>
+                    <p>Desarrollo utilizando programación estructurada y modular, contiene una interfaz de consola interactiva con el usuario.</p>
+                    <p>
+                        <strong>Tecnologías:</strong> C++.
+                    </p>
+                    <button class="buttonGitHub"> <a href="https://github.com/MarcosMazzitelli/Bonzo-TPI-Programacion-I" class="buttonGitHubLink">Ver en github</a></button>
+                </article>
         </section>
         
-        <section>
-            <h2 id="Contacto">Contacto</h2>
-            <form method="post" action="/">
-                <fieldset>
-                    <legend>Informacion personal</legend>
-                    <div>
-                        <label>Nombre:
-                        <input 
-                            type="text" 
-                            name="name"
-                            placeholder="Nombre y Apellido"
-                        >
-                        </label>
-                    </div>
-
-                    <div>
-                        <label>Email:
-                        <input 
-                            type="email" 
-                            name="email"
-                            placeholder="Email@dominio"
-                        >
-                        </label>
-                    </div>
-                </fieldset>
-                <button>Enviar mensaje</button>
-            </form>
-
+        <section class="form">
+            <h2 id="Contacto">
+                Contacto
+            </h2>
+            <div class="formulario_datos">
+                <input type="text" class="inputText" placeholder="Nombre completo">
+            </div>
+            <div class="formulario_datos">
+                <input type="text" class="inputText" placeholder="Email@dominio">
+            </div>
+            <div class="formulario_datos">
+                <textarea placeholder="Escriba un mensaje"></textarea>
+            </div>
+            <button> Enviar mensaje </button>
 
         </section>
 
@@ -152,11 +149,25 @@
 
     
     <footer>
-        
-        <a href="https://www.linkedin.com/in/marcos-mazzitelli-41168136b/">Mi Linkedin</a>
-        
+        <a href="https://www.linkedin.com/in/marcos-mazzitelli-41168136b/">
+            <img class="icon_footer"
+                title="Linkedin"
+                src="Imgs/Icons/Linkedin.png"
+                alt="Icono Linkedin">
+        </a>
+         <a href="https://github.com/MarcosMazzitelli">
+            <img class="icon_footer"
+                title="Github"
+                src="Imgs/Icons/GitHub.png"
+                alt="Icono Github">
+        </a>
+        <a href="mailto:marcosmazzitelli89@gmail.com">
+            <img class="icon_footer"
+                title="Enviar un correo"
+                src="Imgs/Icons/Gmail.png"
+                alt="Icono Gmail">
+        </a>
     </footer>
 </body>
 </html> 
 
-        <!--- 
